@@ -1,0 +1,24 @@
+{
+  "name": "calculadora-de-churrasco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kabwto/Calculadora-de-Churrasco.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kabwto/Calculadora-de-Churrasco/issues"
+  },
+  "homepage": "https://github.com/kabwto/Calculadora-de-Churrasco#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jQuery": "^1.7.4",
+    "popper.js": "^1.14.4"
+  }
+}
