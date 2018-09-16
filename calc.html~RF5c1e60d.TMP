@@ -86,15 +86,27 @@
       <div class="input-group-prepend"> <span class="input-group-text">Carvao</span> </div>
       <input type="Text" name="Carvao" id="carv"  onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="R$" />
     </div>
-    <input type="submit" class="btn btn-success" name="Calcular" value="Calcular" onClick="calculo(); somat();" />
+    <input type="button" name="Calcular" value="Calcular" onClick="calculo(); somat();" />
   </form>
 </div>
 <!-- Fim da Estrutura da Calculadora -->
-<p id="calc1"></p>
-<p id="calc2"></p>
+
+	
+	<script type="text/javascript">
+		document.getElementById("calc1").innerHTML = resultado;
+		document.getElementById("calc2").innerHTML = total;
+</script>
 	
 <!-- Saida da Função e Resultado dos Calculos -->
-<p id="cal1"></p>
-
+<div class="input-group mb-3">
+  <div class="input-group-prepend"> <span class="input-group-text">Quanto cada um vai pagar: </span> 
+	</div>
+	<p id="calc1"></p>
+</div>
+<div class="input-group mb-3">
+  <div class="input-group-prepend"> <span class="input-group-text" id="calc2">Total: </span> 
+	</div>
+	<p id="calc2"></p>
+</div>
 </body>
 </html>
