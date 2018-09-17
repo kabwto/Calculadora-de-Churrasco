@@ -18,10 +18,9 @@ function calculo() {
 	var resultado = (ling1 + cost + pic + frang + oc1 + oc2 + oc3 + oc4 + vin + cerv + resu + car + temp) / Qtd;
 	
 	
-	return resultado;
+	document.getElementById("resultado").innerHTML = resultado;
 
 }
-document.getElementById("calc1").innerHTML = resultado;
 function somat() {
 	var ling1 = document.getElementById('ling1');
 	var cost = document.getElementById('cost');
@@ -39,8 +38,8 @@ function somat() {
 
 	var total = (ling1 + cost + pic + frang + oc1 + oc2 + oc3 + oc4 + vin + cerv + resu + car + temp);
 
-	return total;
 	
+	document.getElementById("total").innerHTML = total;
+
 }
-document.getElementById("calc2").innerHTML = total;
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/xhtml1-strict.dtd">
-<html lang="pt-br">
+<html>
 <head>
 <!-- Required meta tags -->
 <meta charset="utf-8">
@@ -17,6 +17,11 @@
 <title>Calculadora de Churrasco</title>
 </head>
 <body>
+<!-- --------------------- -->
+
+
+<!-- ---------------------- -->
+	
 <div class="jumbotron text-center">
   <h1>Calculadora de Churrasco</h1>
 </div>
@@ -28,7 +33,7 @@
   <form >
     <div class="input-group mb-3">
       <div class="input-group-prepend"> <span class="input-group-text">Quantidade de Pessoas</span> </div>
-      <input type="number" id="Qtd" placeholder="Apenas números." />
+      <input type="text" id="Qtd" placeholder="Apenas números." />
     </div>
     <div class="input-group mb-3">
       <div class="input-group-prepend"> <span class="input-group-text">Linguiça</span> </div>
@@ -86,15 +91,24 @@
       <div class="input-group-prepend"> <span class="input-group-text">Carvao</span> </div>
       <input type="Text" name="Carvao" id="carv"  onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="R$" />
     </div>
-    <input type="submit" class="btn btn-success" name="Calcular" value="Calcular" onClick="calculo(); somat();" />
+	 <div class="input-group mb-3">
+      <div class="input-group-prepend"> <span class="input-group-text">Tempero</span> </div>
+      <input type="Text" name="Tempero" id="tempe"  onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="R$" />
+    </div>
+	<button type="button" name="button" onClick="calculo(); somat();" class="btn btn-success">Calcular</button>
   </form>
 </div>
 <!-- Fim da Estrutura da Calculadora -->
-<p id="calc1"></p>
-<p id="calc2"></p>
+<div>
+	Cada um vai ter que pagar: R$ <span id="resultado"></span>	
+</div>
+<div>
+	Total: R$ <span id="total"></span>	
+</div>
+
 	
 <!-- Saida da Função e Resultado dos Calculos -->
-<p id="cal1"></p>
+
 
 </body>
 </html>
