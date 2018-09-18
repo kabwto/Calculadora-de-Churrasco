@@ -25,85 +25,85 @@
 <div class="jumbotron text-center">
   <h1>Calculadora de Churrasco</h1>
 </div>
-<div class="container" id="">
+<div class="container">
   <h2>Instruçôes:</h2>
-  <p>Em Breve</p>
+ <ul>
+	<li>Preencha somente os campos que deseja.</li>
+	 <li>Coloque a Quantidade de Pessoas.</li>
+</ul>
   
   <!-- Estrutura da Calculadora -->
-  <form >
+  <form>
     <div class="input-group mb-3">
       <div class="input-group-prepend"> <span class="input-group-text">Quantidade de Pessoas</span> </div>
-      <input type="text" id="Qtd" placeholder="Apenas números." />
+      <input type="text" id="Qtd" placeholder="Apenas números." name="Qtd" />
     </div>
     <div class="input-group mb-3">
       <div class="input-group-prepend"> <span class="input-group-text">Linguiça</span> </div>
-      <input type="Text" name="Linguiça" id="ling"  onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="R$" />
+      <input type="Text" name="ling1" id="ling1"  onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="R$" />
     </div>
     <div class="input-group mb-3">
       <div class="input-group-prepend"> <span class="input-group-text">Costela</span> </div>
-      <input type="Text" name="Costela" id="cost"  onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="R$" />
+      <input type="Text" name="cost" id="cost"  onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="R$" />
     </div>
     <div class="input-group mb-3">
       <div class="input-group-prepend"> <span class="input-group-text">Picanha</span> </div>
-      <input type="Text" name="Picanha" id="pic"  onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="R$" />
+      <input type="Text" name="pic" id="pic"  onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="R$" />
     </div>
     <div class="input-group mb-3">
       <div class="input-group-prepend"> <span class="input-group-text">Frango</span> </div>
-      <input type="Text" name="Frango" id="frang"  onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="R$" />
+      <input type="Text" name="frang" id="frang"  onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="R$" />
     </div>
     <div class="input-group mb-3">
       <div class="input-group-prepend"> <span class="input-group-text">Outra Carne 1</span> </div>
-      <input type="Text" name="Outra Carne 1" id="oc1"  onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="R$" />
+      <input type="Text" name="oc1" id="oc1"  onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="R$" />
     </div>
     <div class="input-group mb-3">
       <div class="input-group-prepend"> <span class="input-group-text">Outra Carne 2</span> </div>
-      <input type="Text" name="Outra Carne 2" id="oc2"  onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="R$" />
+      <input type="Text" name="oc2" id="oc2"  onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="R$" />
     </div>
     <div class="input-group mb-3">
       <div class="input-group-prepend"> <span class="input-group-text">Outra Carne 3</span> </div>
-      <input type="Text" name="Outra Carne 3" id="oc3"  onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="R$" />
+      <input type="Text" name="oc3" id="oc3"  onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="R$" />
     </div>
     <div class="input-group mb-3">
       <div class="input-group-prepend"> <span class="input-group-text">Outra Carne 4</span> </div>
-      <input type="Text" name="Outra Carne 4" id="oc4"  onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="R$" />
+      <input type="Text" name="oc4" id="oc4"  onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="R$" />
     </div>
     <div class="input-group mb-3">
       <div class="input-group-prepend"> <span class="input-group-text">Vinagrete</span> </div>
-      <input type="Text" name="Vinagrete" id="vin"  onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="R$" />
+      <input type="Text" name="vin" id="vin"  onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="R$" />
     </div>
     <div class="input-group mb-3">
       <div class="input-group-prepend"> <span class="input-group-text">Farofa</span> </div>
-      <input type="Text" name="Farofa" id="far"  onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="R$" />
+      <input type="Text" name="far" id="far"  onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="R$" />
     </div>
     <div class="input-group mb-3">
       <div class="input-group-prepend"> <span class="input-group-text">Cerveja</span> </div>
-      <input type="Text" name="Cerveja" id="cerv"  onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="R$" />
+      <input type="Text" name="cerv" id="cerv"  onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="R$" />
     </div>
     <div class="input-group mb-3">
       <div class="input-group-prepend"> <span class="input-group-text">Refrigerante e Suco</span> </div>
-      <input type="Text" name="Refrigerante e Suco" id="resu"  onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="R$" />
+      <input type="Text" name="resu" id="resu"  onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="R$" />
     </div>
-    <div class="input-group mb-3">
-      <div class="input-group-prepend"> <span class="input-group-text">Linguiça</span> </div>
-      <input type="Text" name="Linguiça" id="ling1"  onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="R$" />
-    </div>
+   
     <div class="input-group mb-3">
       <div class="input-group-prepend"> <span class="input-group-text">Carvao</span> </div>
-      <input type="Text" name="Carvao" id="carv"  onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="R$" />
+      <input type="Text" name="carv" id="carv"  onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="R$" />
     </div>
 	 <div class="input-group mb-3">
       <div class="input-group-prepend"> <span class="input-group-text">Tempero</span> </div>
-      <input type="Text" name="Tempero" id="tempe"  onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="R$" />
+      <input type="Text" name="tempe" id="tempe"  onkeydown="FormataMoeda(this,10,event)" onkeypress="return maskKeyPress(event)" placeholder="R$" />
     </div>
 	<button type="button" name="button" onClick="calculo(); somat();" class="btn btn-success">Calcular</button>
   </form>
 </div>
 <!-- Fim da Estrutura da Calculadora -->
 <div>
-	Cada um vai ter que pagar: R$ <span id="resultado"></span>	
+	Cada um vai ter que pagar: R$ <p id="resultado"></p>	
 </div>
 <div>
-	Total: R$ <span id="total"></span>	
+	Total: R$ <p id="total"></p>	
 </div>
 
 	
